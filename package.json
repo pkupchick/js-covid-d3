@@ -11,7 +11,10 @@
   "scripts": {
     "serve": "NODE_ENV=development webpack serve --config webpack.dev.js ",
     "watch": "NODE_ENV=development webpack --watch --config webpack.dev.js ",
-    "build": "NODE_ENV=production webpack --config webpack.prod.js"
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development",
+    "postinstall": "webpack"
   },
   "author": "mrcjbradley",
   "license": "ISC",
